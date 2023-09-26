@@ -3,9 +3,7 @@ from PIL import Image
 from werkzeug.utils import secure_filename
 import os
 from ultralytics import YOLO
-import io
 import base64
-import contextlib
 
 app = Flask(__name__)
 
